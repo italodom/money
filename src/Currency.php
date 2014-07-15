@@ -1196,6 +1196,11 @@ class Currency
         return self::$currencies[$this->currencyCode]['default_fraction_digits'];
     }
 
+    public function getDefaultFractionDigits2()
+    {
+        return self::$currencies[$this->currencyCode]['default_fraction_digits'];
+    }
+
     /**
      * Returns the name that is suitable for displaying this currency.
      *
